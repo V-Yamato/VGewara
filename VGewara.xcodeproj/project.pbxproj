@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AE7CC9A1E8173AF0006F519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7CC991E8173AF0006F519 /* main.m */; };
+		8AE7CC9D1E8173AF0006F519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7CC9C1E8173AF0006F519 /* AppDelegate.m */; };
+		8AE7CCA01E8173AF0006F519 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7CC9F1E8173AF0006F519 /* ViewController.m */; };
+		8AE7CCA31E8173AF0006F519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7CCA11E8173AF0006F519 /* Main.storyboard */; };
+		8AE7CCA51E8173AF0006F519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7CCA41E8173AF0006F519 /* Assets.xcassets */; };
+		8AE7CCA81E8173AF0006F519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7CCA61E8173AF0006F519 /* LaunchScreen.storyboard */; };
+		8AE7CCB31E8173AF0006F519 /* VGewaraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7CCB21E8173AF0006F519 /* VGewaraTests.m */; };
+		8AE7CCBE1E8173AF0006F519 /* VGewaraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7CCBD1E8173AF0006F519 /* VGewaraUITests.m */; };
+		A4D9D2C26C86DD987B6D9F38 /* libPods-VGewara.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6B66BD56EC30FADE04616E /* libPods-VGewara.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AE7CCAF1E8173AF0006F519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE7CC8D1E8173AF0006F519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AE7CC941E8173AF0006F519;
+			remoteInfo = VGewara;
+		};
+		8AE7CCBA1E8173AF0006F519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE7CC8D1E8173AF0006F519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AE7CC941E8173AF0006F519;
+			remoteInfo = VGewara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A6B66BD56EC30FADE04616E /* libPods-VGewara.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VGewara.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		593187042F97F1421F059EDB /* Pods-VGewara.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VGewara.release.xcconfig"; path = "Pods/Target Support Files/Pods-VGewara/Pods-VGewara.release.xcconfig"; sourceTree = "<group>"; };
+		8AE7CC951E8173AF0006F519 /* VGewara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VGewara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE7CC991E8173AF0006F519 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AE7CC9B1E8173AF0006F519 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AE7CC9C1E8173AF0006F519 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AE7CC9E1E8173AF0006F519 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8AE7CC9F1E8173AF0006F519 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AE7CCA21E8173AF0006F519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AE7CCA41E8173AF0006F519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AE7CCA71E8173AF0006F519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AE7CCA91E8173AF0006F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE7CCAE1E8173AF0006F519 /* VGewaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VGewaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE7CCB21E8173AF0006F519 /* VGewaraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGewaraTests.m; sourceTree = "<group>"; };
+		8AE7CCB41E8173AF0006F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE7CCB91E8173AF0006F519 /* VGewaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VGewaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE7CCBD1E8173AF0006F519 /* VGewaraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGewaraUITests.m; sourceTree = "<group>"; };
+		8AE7CCBF1E8173AF0006F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9AA216885C9F3E04B0FF28 /* Pods-VGewara.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VGewara.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VGewara/Pods-VGewara.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AE7CC921E8173AF0006F519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D9D2C26C86DD987B6D9F38 /* libPods-VGewara.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE7CCAB1E8173AF0006F519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE7CCB61E8173AF0006F519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24B8C1C6BAA2B1BF866CCDDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF9AA216885C9F3E04B0FF28 /* Pods-VGewara.debug.xcconfig */,
+				593187042F97F1421F059EDB /* Pods-VGewara.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		273E2571A19999FEDB8503E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A6B66BD56EC30FADE04616E /* libPods-VGewara.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AE7CC8C1E8173AF0006F519 = {
+			isa = PBXGroup;
+			children = (
+				8AE7CC971E8173AF0006F519 /* VGewara */,
+				8AE7CCB11E8173AF0006F519 /* VGewaraTests */,
+				8AE7CCBC1E8173AF0006F519 /* VGewaraUITests */,
+				8AE7CC961E8173AF0006F519 /* Products */,
+				24B8C1C6BAA2B1BF866CCDDF /* Pods */,
+				273E2571A19999FEDB8503E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8AE7CC961E8173AF0006F519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AE7CC951E8173AF0006F519 /* VGewara.app */,
+				8AE7CCAE1E8173AF0006F519 /* VGewaraTests.xctest */,
+				8AE7CCB91E8173AF0006F519 /* VGewaraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AE7CC971E8173AF0006F519 /* VGewara */ = {
+			isa = PBXGroup;
+			children = (
+				8AE7CC9B1E8173AF0006F519 /* AppDelegate.h */,
+				8AE7CC9C1E8173AF0006F519 /* AppDelegate.m */,
+				8AE7CC9E1E8173AF0006F519 /* ViewController.h */,
+				8AE7CC9F1E8173AF0006F519 /* ViewController.m */,
+				8AE7CCA11E8173AF0006F519 /* Main.storyboard */,
+				8AE7CCA41E8173AF0006F519 /* Assets.xcassets */,
+				8AE7CCA61E8173AF0006F519 /* LaunchScreen.storyboard */,
+				8AE7CCA91E8173AF0006F519 /* Info.plist */,
+				8AE7CC981E8173AF0006F519 /* Supporting Files */,
+			);
+			path = VGewara;
+			sourceTree = "<group>";
+		};
+		8AE7CC981E8173AF0006F519 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AE7CC991E8173AF0006F519 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AE7CCB11E8173AF0006F519 /* VGewaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AE7CCB21E8173AF0006F519 /* VGewaraTests.m */,
+				8AE7CCB41E8173AF0006F519 /* Info.plist */,
+			);
+			path = VGewaraTests;
+			sourceTree = "<group>";
+		};
+		8AE7CCBC1E8173AF0006F519 /* VGewaraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AE7CCBD1E8173AF0006F519 /* VGewaraUITests.m */,
+				8AE7CCBF1E8173AF0006F519 /* Info.plist */,
+			);
+			path = VGewaraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AE7CC941E8173AF0006F519 /* VGewara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE7CCC21E8173AF0006F519 /* Build configuration list for PBXNativeTarget "VGewara" */;
+			buildPhases = (
+				0CD5347C4766817C010979A5 /* [CP] Check Pods Manifest.lock */,
+				8AE7CC911E8173AF0006F519 /* Sources */,
+				8AE7CC921E8173AF0006F519 /* Frameworks */,
+				8AE7CC931E8173AF0006F519 /* Resources */,
+				59A7A4912E5DB06C97C079AB /* [CP] Embed Pods Frameworks */,
+				D2C6E781D1E6DFA7613B1ADA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VGewara;
+			productName = VGewara;
+			productReference = 8AE7CC951E8173AF0006F519 /* VGewara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AE7CCAD1E8173AF0006F519 /* VGewaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE7CCC51E8173AF0006F519 /* Build configuration list for PBXNativeTarget "VGewaraTests" */;
+			buildPhases = (
+				8AE7CCAA1E8173AF0006F519 /* Sources */,
+				8AE7CCAB1E8173AF0006F519 /* Frameworks */,
+				8AE7CCAC1E8173AF0006F519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE7CCB01E8173AF0006F519 /* PBXTargetDependency */,
+			);
+			name = VGewaraTests;
+			productName = VGewaraTests;
+			productReference = 8AE7CCAE1E8173AF0006F519 /* VGewaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AE7CCB81E8173AF0006F519 /* VGewaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE7CCC81E8173AF0006F519 /* Build configuration list for PBXNativeTarget "VGewaraUITests" */;
+			buildPhases = (
+				8AE7CCB51E8173AF0006F519 /* Sources */,
+				8AE7CCB61E8173AF0006F519 /* Frameworks */,
+				8AE7CCB71E8173AF0006F519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE7CCBB1E8173AF0006F519 /* PBXTargetDependency */,
+			);
+			name = VGewaraUITests;
+			productName = VGewaraUITests;
+			productReference = 8AE7CCB91E8173AF0006F519 /* VGewaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AE7CC8D1E8173AF0006F519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "黄聪";
+				TargetAttributes = {
+					8AE7CC941E8173AF0006F519 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JTYKNYJZN2;
+						ProvisioningStyle = Automatic;
+					};
+					8AE7CCAD1E8173AF0006F519 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JTYKNYJZN2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AE7CC941E8173AF0006F519;
+					};
+					8AE7CCB81E8173AF0006F519 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JTYKNYJZN2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AE7CC941E8173AF0006F519;
+					};
+				};
+			};
+			buildConfigurationList = 8AE7CC901E8173AF0006F519 /* Build configuration list for PBXProject "VGewara" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AE7CC8C1E8173AF0006F519;
+			productRefGroup = 8AE7CC961E8173AF0006F519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AE7CC941E8173AF0006F519 /* VGewara */,
+				8AE7CCAD1E8173AF0006F519 /* VGewaraTests */,
+				8AE7CCB81E8173AF0006F519 /* VGewaraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AE7CC931E8173AF0006F519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE7CCA81E8173AF0006F519 /* LaunchScreen.storyboard in Resources */,
+				8AE7CCA51E8173AF0006F519 /* Assets.xcassets in Resources */,
+				8AE7CCA31E8173AF0006F519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE7CCAC1E8173AF0006F519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE7CCB71E8173AF0006F519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CD5347C4766817C010979A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59A7A4912E5DB06C97C079AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VGewara/Pods-VGewara-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C6E781D1E6DFA7613B1ADA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VGewara/Pods-VGewara-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AE7CC911E8173AF0006F519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE7CCA01E8173AF0006F519 /* ViewController.m in Sources */,
+				8AE7CC9D1E8173AF0006F519 /* AppDelegate.m in Sources */,
+				8AE7CC9A1E8173AF0006F519 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE7CCAA1E8173AF0006F519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE7CCB31E8173AF0006F519 /* VGewaraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE7CCB51E8173AF0006F519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE7CCBE1E8173AF0006F519 /* VGewaraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AE7CCB01E8173AF0006F519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AE7CC941E8173AF0006F519 /* VGewara */;
+			targetProxy = 8AE7CCAF1E8173AF0006F519 /* PBXContainerItemProxy */;
+		};
+		8AE7CCBB1E8173AF0006F519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AE7CC941E8173AF0006F519 /* VGewara */;
+			targetProxy = 8AE7CCBA1E8173AF0006F519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AE7CCA11E8173AF0006F519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AE7CCA21E8173AF0006F519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AE7CCA61E8173AF0006F519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AE7CCA71E8173AF0006F519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AE7CCC01E8173AF0006F519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AE7CCC11E8173AF0006F519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AE7CCC31E8173AF0006F519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF9AA216885C9F3E04B0FF28 /* Pods-VGewara.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JTYKNYJZN2;
+				INFOPLIST_FILE = VGewara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevilMayCry.VGewara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AE7CCC41E8173AF0006F519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 593187042F97F1421F059EDB /* Pods-VGewara.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JTYKNYJZN2;
+				INFOPLIST_FILE = VGewara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevilMayCry.VGewara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8AE7CCC61E8173AF0006F519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JTYKNYJZN2;
+				INFOPLIST_FILE = VGewaraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevilMayCry.VGewaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VGewara.app/VGewara";
+			};
+			name = Debug;
+		};
+		8AE7CCC71E8173AF0006F519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JTYKNYJZN2;
+				INFOPLIST_FILE = VGewaraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevilMayCry.VGewaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VGewara.app/VGewara";
+			};
+			name = Release;
+		};
+		8AE7CCC91E8173AF0006F519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JTYKNYJZN2;
+				INFOPLIST_FILE = VGewaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevilMayCry.VGewaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VGewara;
+			};
+			name = Debug;
+		};
+		8AE7CCCA1E8173AF0006F519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JTYKNYJZN2;
+				INFOPLIST_FILE = VGewaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevilMayCry.VGewaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VGewara;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AE7CC901E8173AF0006F519 /* Build configuration list for PBXProject "VGewara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE7CCC01E8173AF0006F519 /* Debug */,
+				8AE7CCC11E8173AF0006F519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE7CCC21E8173AF0006F519 /* Build configuration list for PBXNativeTarget "VGewara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE7CCC31E8173AF0006F519 /* Debug */,
+				8AE7CCC41E8173AF0006F519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AE7CCC51E8173AF0006F519 /* Build configuration list for PBXNativeTarget "VGewaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE7CCC61E8173AF0006F519 /* Debug */,
+				8AE7CCC71E8173AF0006F519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AE7CCC81E8173AF0006F519 /* Build configuration list for PBXNativeTarget "VGewaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE7CCC91E8173AF0006F519 /* Debug */,
+				8AE7CCCA1E8173AF0006F519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AE7CC8D1E8173AF0006F519 /* Project object */;
+}
