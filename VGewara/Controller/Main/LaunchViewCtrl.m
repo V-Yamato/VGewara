@@ -50,7 +50,7 @@
         [object stopAnimating];
         UIStoryboard *mainSB = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         UIViewController *mainViewCtrl = [mainSB instantiateViewControllerWithIdentifier:@"MainViewCtrl"];
-        [self.navigationController pushViewController:mainViewCtrl animated:YES];
+        [self presentViewController:mainViewCtrl animated:YES completion:nil];
     }
     NSLog(@"%ld",[object currentAnimatedImageIndex]);
 }
@@ -64,9 +64,9 @@
 //
 //}
 - (IBAction)pushtest:(id)sender {
-    UIStoryboard *mainSB = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    UIViewController *mainViewCtrl = [mainSB instantiateViewControllerWithIdentifier:@"MainViewCtrl"];
-    [self presentViewController:mainViewCtrl animated:YES completion:nil];
+//    UIStoryboard *mainSB = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    UIViewController *mainViewCtrl = [mainSB instantiateViewControllerWithIdentifier:@"MainViewCtrl"];
+//    [self presentViewController:mainViewCtrl animated:YES completion:nil];
 }
 
 
