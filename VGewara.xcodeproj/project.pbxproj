@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AD5A3FD1E8E41C700D68721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD5A3FC1E8E41C700D68721 /* Main.storyboard */; };
+		8AD5A4021E8E4B3200D68721 /* LaunchViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5A4011E8E4B3200D68721 /* LaunchViewCtrl.m */; };
+		8AD5A4041E8E549E00D68721 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD5A4031E8E549E00D68721 /* Launch.storyboard */; };
+		8AD5A4081E8E75AB00D68721 /* launchGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8AD5A4071E8E75AB00D68721 /* launchGif.gif */; };
 		8AE7CC9A1E8173AF0006F519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7CC991E8173AF0006F519 /* main.m */; };
 		8AE7CC9D1E8173AF0006F519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7CC9C1E8173AF0006F519 /* AppDelegate.m */; };
-		8AE7CCA01E8173AF0006F519 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7CC9F1E8173AF0006F519 /* ViewController.m */; };
-		8AE7CCA31E8173AF0006F519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7CCA11E8173AF0006F519 /* Main.storyboard */; };
 		8AE7CCA51E8173AF0006F519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7CCA41E8173AF0006F519 /* Assets.xcassets */; };
-		8AE7CCA81E8173AF0006F519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7CCA61E8173AF0006F519 /* LaunchScreen.storyboard */; };
 		8AE7CCB31E8173AF0006F519 /* VGewaraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7CCB21E8173AF0006F519 /* VGewaraTests.m */; };
 		8AE7CCBE1E8173AF0006F519 /* VGewaraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7CCBD1E8173AF0006F519 /* VGewaraUITests.m */; };
 		A4D9D2C26C86DD987B6D9F38 /* libPods-VGewara.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6B66BD56EC30FADE04616E /* libPods-VGewara.a */; };
@@ -38,15 +39,17 @@
 /* Begin PBXFileReference section */
 		0A6B66BD56EC30FADE04616E /* libPods-VGewara.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VGewara.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		593187042F97F1421F059EDB /* Pods-VGewara.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VGewara.release.xcconfig"; path = "Pods/Target Support Files/Pods-VGewara/Pods-VGewara.release.xcconfig"; sourceTree = "<group>"; };
+		8A3F231F1E9BA15200D659EC /* VGewara.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGewara.pch; sourceTree = "<group>"; };
+		8AD5A3FC1E8E41C700D68721 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8AD5A4001E8E4B3200D68721 /* LaunchViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewCtrl.h; sourceTree = "<group>"; };
+		8AD5A4011E8E4B3200D68721 /* LaunchViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewCtrl.m; sourceTree = "<group>"; };
+		8AD5A4031E8E549E00D68721 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		8AD5A4071E8E75AB00D68721 /* launchGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = launchGif.gif; sourceTree = "<group>"; };
 		8AE7CC951E8173AF0006F519 /* VGewara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VGewara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE7CC991E8173AF0006F519 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AE7CC9B1E8173AF0006F519 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AE7CC9C1E8173AF0006F519 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8AE7CC9E1E8173AF0006F519 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8AE7CC9F1E8173AF0006F519 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8AE7CCA21E8173AF0006F519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AE7CCA41E8173AF0006F519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8AE7CCA71E8173AF0006F519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AE7CCA91E8173AF0006F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AE7CCAE1E8173AF0006F519 /* VGewaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VGewaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE7CCB21E8173AF0006F519 /* VGewaraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGewaraTests.m; sourceTree = "<group>"; };
@@ -100,6 +103,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8AD5A3FA1E8E3BA500D68721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8AD5A3FB1E8E402D00D68721 /* Main */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8AD5A3FB1E8E402D00D68721 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8AD5A3FC1E8E41C700D68721 /* Main.storyboard */,
+				8AD5A4031E8E549E00D68721 /* Launch.storyboard */,
+				8AD5A4001E8E4B3200D68721 /* LaunchViewCtrl.h */,
+				8AD5A4011E8E4B3200D68721 /* LaunchViewCtrl.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8AD5A4051E8E75A200D68721 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8AD5A4061E8E75A200D68721 /* Resource */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8AD5A4061E8E75A200D68721 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8AD5A4071E8E75AB00D68721 /* launchGif.gif */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		8AE7CC8C1E8173AF0006F519 = {
 			isa = PBXGroup;
 			children = (
@@ -127,12 +165,11 @@
 			children = (
 				8AE7CC9B1E8173AF0006F519 /* AppDelegate.h */,
 				8AE7CC9C1E8173AF0006F519 /* AppDelegate.m */,
-				8AE7CC9E1E8173AF0006F519 /* ViewController.h */,
-				8AE7CC9F1E8173AF0006F519 /* ViewController.m */,
-				8AE7CCA11E8173AF0006F519 /* Main.storyboard */,
 				8AE7CCA41E8173AF0006F519 /* Assets.xcassets */,
-				8AE7CCA61E8173AF0006F519 /* LaunchScreen.storyboard */,
 				8AE7CCA91E8173AF0006F519 /* Info.plist */,
+				8A3F231F1E9BA15200D659EC /* VGewara.pch */,
+				8AD5A4051E8E75A200D68721 /* Application */,
+				8AD5A3FA1E8E3BA500D68721 /* Controller */,
 				8AE7CC981E8173AF0006F519 /* Supporting Files */,
 			);
 			path = VGewara;
@@ -276,9 +313,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AE7CCA81E8173AF0006F519 /* LaunchScreen.storyboard in Resources */,
 				8AE7CCA51E8173AF0006F519 /* Assets.xcassets in Resources */,
-				8AE7CCA31E8173AF0006F519 /* Main.storyboard in Resources */,
+				8AD5A3FD1E8E41C700D68721 /* Main.storyboard in Resources */,
+				8AD5A4081E8E75AB00D68721 /* launchGif.gif in Resources */,
+				8AD5A4041E8E549E00D68721 /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,8 +389,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AE7CCA01E8173AF0006F519 /* ViewController.m in Sources */,
 				8AE7CC9D1E8173AF0006F519 /* AppDelegate.m in Sources */,
+				8AD5A4021E8E4B3200D68721 /* LaunchViewCtrl.m in Sources */,
 				8AE7CC9A1E8173AF0006F519 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,25 +425,6 @@
 			targetProxy = 8AE7CCBA1E8173AF0006F519 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8AE7CCA11E8173AF0006F519 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8AE7CCA21E8173AF0006F519 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8AE7CCA61E8173AF0006F519 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8AE7CCA71E8173AF0006F519 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8AE7CCC01E8173AF0006F519 /* Debug */ = {
@@ -448,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -490,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,6 +524,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = JTYKNYJZN2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VGewara/VGewara.pch";
 				INFOPLIST_FILE = VGewara/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DevilMayCry.VGewara;
@@ -519,6 +540,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = JTYKNYJZN2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VGewara/VGewara.pch";
 				INFOPLIST_FILE = VGewara/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DevilMayCry.VGewara;
@@ -595,6 +618,7 @@
 				8AE7CCC41E8173AF0006F519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AE7CCC51E8173AF0006F519 /* Build configuration list for PBXNativeTarget "VGewaraTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +627,7 @@
 				8AE7CCC71E8173AF0006F519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AE7CCC81E8173AF0006F519 /* Build configuration list for PBXNativeTarget "VGewaraUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +636,7 @@
 				8AE7CCCA1E8173AF0006F519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
